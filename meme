@@ -1,0 +1,15 @@
+    game:GetService("TeleportService"):Teleport(334799101, player)
+    
+    wait(10)
+    
+    local TeleportService = game:GetService('TeleportService')
+    local ReplicatedStorage = game:GetService('ReplicatedStorage')
+    local Players = game:GetService('Players')
+     
+    local playerGui = Players.LocalPlayer:WaitForChild('PlayerGui')
+     
+    local placeId = 5645641735
+     
+     
+    -- teleport the user
+    TeleportService:Teleport(placeId)
